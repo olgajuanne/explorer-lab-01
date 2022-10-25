@@ -11,7 +11,7 @@ function setCardType(type) {
     mastercard: ["#df6f29", "#C69347"],
     elo: ["#00a4e0", "#2E2E2E"],
     americanexpress: ["#33348e", "#00acec"],
-    default: ["black", "gray"],
+    default: ["silver", "gray"],
   }
 
   ccBgColor01.setAttribute("fill", colors[type][0])
